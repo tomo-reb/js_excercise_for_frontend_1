@@ -11,8 +11,8 @@ console.log('titleElement1の中身 : ', titleElement1);
  *   - querySelectorを使う
  *   - console.logで取得したDOMの中身を確認する
  */
-const titleElement2 = document.querySelector('#title');
-console.log('titleElement2の中身 : ', titleElement2);
+const containerElement = document.querySelector('#item-container');
+console.log('containerElementの中身 : ', containerElement);
 
 /**
  * 課題3: li要素を全て取得する
